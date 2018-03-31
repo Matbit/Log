@@ -42,6 +42,7 @@
             this.grünToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.llToFrmAge = new System.Windows.Forms.LinkLabel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -168,11 +169,24 @@
             this.linkLabel1.Text = "Log";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // llToFrmAge
+            // 
+            this.llToFrmAge.AutoSize = true;
+            this.llToFrmAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llToFrmAge.Location = new System.Drawing.Point(208, 95);
+            this.llToFrmAge.Name = "llToFrmAge";
+            this.llToFrmAge.Size = new System.Drawing.Size(128, 16);
+            this.llToFrmAge.TabIndex = 6;
+            this.llToFrmAge.TabStop = true;
+            this.llToFrmAge.Text = "Open Next Frame";
+            this.llToFrmAge.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llToFrmAge_LinkClicked);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 153);
+            this.Controls.Add(this.llToFrmAge);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.tbxName);
@@ -207,6 +221,7 @@
         private System.Windows.Forms.ToolStripMenuItem schließenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem standartToolStripMenuItem;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel llToFrmAge;
     }
 }
 

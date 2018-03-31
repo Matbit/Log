@@ -8,3 +8,4 @@ C:\Users\Big Boss\Documents\Visual Studio 2015\Projects\Logger\Logger\obj\Debug\
 C:\Users\Big Boss\Documents\Visual Studio 2015\Projects\Logger\Logger\obj\Debug\Logger.exe
 C:\Users\Big Boss\Documents\Visual Studio 2015\Projects\Logger\Logger\obj\Debug\Logger.pdb
 C:\Users\Big Boss\Documents\Visual Studio 2015\Projects\Logger\Logger\obj\Debug\Logger.Logs.resources
+C:\Users\Big Boss\Documents\Visual Studio 2015\Projects\Logger\Logger\obj\Debug\Logger.Age.resources

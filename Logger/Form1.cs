@@ -32,10 +32,10 @@ namespace Logger
                 Logs.getInstance().addEntry("clicked ok button..");
                 return;
             }
-               
 
-            MessageBox.Show("Beautiful name!", "Information", MessageBoxButtons.OK);
             Logs.getInstance().addEntry("entered new name...");
+            MessageBox.Show("Beautiful name! It has "+ tbxName.TextLength + " letters.", "Information", MessageBoxButtons.OK);
+            
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -98,6 +98,12 @@ namespace Logger
         private void coulourToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void llToFrmAge_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Age frmAge = new Age();
+            frmAge.Show();
         }
     }
 }
