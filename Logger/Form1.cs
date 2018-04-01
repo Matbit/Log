@@ -47,6 +47,7 @@ namespace Logger
         private void gelbToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.Yellow;
+            menuStrip1.BackColor = Color.DarkOrange;
             Logs.getInstance().addEntry("changed colour to yellow..");
         }
 
@@ -58,24 +59,28 @@ namespace Logger
         private void blauToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.Aqua;
+            menuStrip1.BackColor = Color.DarkOrange;
             Logs.getInstance().addEntry("changed colour to blue..");
         }
 
         private void grauToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.DarkMagenta;
+            menuStrip1.BackColor = Color.DarkOrange;
             Logs.getInstance().addEntry("changend colour to magenta..");
         }
 
         private void grünToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.DarkGreen;
+            menuStrip1.BackColor = Color.DarkOrange;
             Logs.getInstance().addEntry("changend colour to green..");
         }
 
         private void standartToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackColor = Color.LightGray;
+            menuStrip1.BackColor = Color.FloralWhite;
             Logs.getInstance().addEntry("changend colour to standard..");
         }
 
