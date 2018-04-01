@@ -13,18 +13,15 @@ namespace Logger
     public partial class Logs : Form
     {
 
-        static private Logs frameLog = null;
+        private static  Logs frameLog = new Logs();
 
-        public Logs()
+        private Logs()
         {
             InitializeComponent();
         }
 
         public static Logs getInstance()
         {
-            if (frameLog == null)
-                frameLog = new Logs();
-
             return frameLog;
         }
 

@@ -35,12 +35,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coulourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.schließenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gelbToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grünToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.schließenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.llToFrmAge = new System.Windows.Forms.LinkLabel();
             this.menuStrip1.SuspendLayout();
@@ -116,6 +116,41 @@
             this.coulourToolStripMenuItem.Text = "Background Colour";
             this.coulourToolStripMenuItem.Click += new System.EventHandler(this.coulourToolStripMenuItem_Click);
             // 
+            // gelbToolStripMenuItem
+            // 
+            this.gelbToolStripMenuItem.Name = "gelbToolStripMenuItem";
+            this.gelbToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.gelbToolStripMenuItem.Text = "Yellow";
+            this.gelbToolStripMenuItem.Click += new System.EventHandler(this.gelbToolStripMenuItem_Click);
+            // 
+            // blauToolStripMenuItem
+            // 
+            this.blauToolStripMenuItem.Name = "blauToolStripMenuItem";
+            this.blauToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.blauToolStripMenuItem.Text = "Blue";
+            this.blauToolStripMenuItem.Click += new System.EventHandler(this.blauToolStripMenuItem_Click);
+            // 
+            // grauToolStripMenuItem
+            // 
+            this.grauToolStripMenuItem.Name = "grauToolStripMenuItem";
+            this.grauToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.grauToolStripMenuItem.Text = "Magenta";
+            this.grauToolStripMenuItem.Click += new System.EventHandler(this.grauToolStripMenuItem_Click);
+            // 
+            // grünToolStripMenuItem
+            // 
+            this.grünToolStripMenuItem.Name = "grünToolStripMenuItem";
+            this.grünToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.grünToolStripMenuItem.Text = "Green";
+            this.grünToolStripMenuItem.Click += new System.EventHandler(this.grünToolStripMenuItem_Click);
+            // 
+            // standartToolStripMenuItem
+            // 
+            this.standartToolStripMenuItem.Name = "standartToolStripMenuItem";
+            this.standartToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.standartToolStripMenuItem.Text = "Standard";
+            this.standartToolStripMenuItem.Click += new System.EventHandler(this.standartToolStripMenuItem_Click);
+            // 
             // schließenToolStripMenuItem
             // 
             this.schließenToolStripMenuItem.Name = "schließenToolStripMenuItem";
@@ -123,44 +158,11 @@
             this.schließenToolStripMenuItem.Text = "Exit";
             this.schließenToolStripMenuItem.Click += new System.EventHandler(this.schließenToolStripMenuItem_Click);
             // 
-            // gelbToolStripMenuItem
-            // 
-            this.gelbToolStripMenuItem.Name = "gelbToolStripMenuItem";
-            this.gelbToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.gelbToolStripMenuItem.Text = "Yellow";
-            this.gelbToolStripMenuItem.Click += new System.EventHandler(this.gelbToolStripMenuItem_Click);
-            // 
-            // blauToolStripMenuItem
-            // 
-            this.blauToolStripMenuItem.Name = "blauToolStripMenuItem";
-            this.blauToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.blauToolStripMenuItem.Text = "Blue";
-            this.blauToolStripMenuItem.Click += new System.EventHandler(this.blauToolStripMenuItem_Click);
-            // 
-            // grauToolStripMenuItem
-            // 
-            this.grauToolStripMenuItem.Name = "grauToolStripMenuItem";
-            this.grauToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.grauToolStripMenuItem.Text = "Magenta";
-            this.grauToolStripMenuItem.Click += new System.EventHandler(this.grauToolStripMenuItem_Click);
-            // 
-            // grünToolStripMenuItem
-            // 
-            this.grünToolStripMenuItem.Name = "grünToolStripMenuItem";
-            this.grünToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.grünToolStripMenuItem.Text = "Green";
-            this.grünToolStripMenuItem.Click += new System.EventHandler(this.grünToolStripMenuItem_Click);
-            // 
-            // standartToolStripMenuItem
-            // 
-            this.standartToolStripMenuItem.Name = "standartToolStripMenuItem";
-            this.standartToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.standartToolStripMenuItem.Text = "Standard";
-            this.standartToolStripMenuItem.Click += new System.EventHandler(this.standartToolStripMenuItem_Click);
-            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(0, 3);
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.linkLabel1.Location = new System.Drawing.Point(467, 136);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(25, 13);
