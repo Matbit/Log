@@ -57,7 +57,7 @@ namespace Logger
 
         private void blauToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.BackColor = Color.Blue;
+            this.BackColor = Color.Aqua;
             Logs.getInstance().addEntry("changed colour to blue..");
         }
 

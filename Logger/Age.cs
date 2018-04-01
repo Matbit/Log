@@ -43,7 +43,7 @@ namespace Logger
                 }
 
                 DateTime aDate = DateTime.Now;
-                Logs.getInstance().addEntry("typed age..");
+                //Logs.getInstance().addEntry("typed age..");
                 MessageBox.Show("You could have been borned in " + (aDate.Year - age) + ".","Information",MessageBoxButtons.OK);
                 
 
@@ -75,6 +75,17 @@ namespace Logger
         {
             Logs.getInstance().addEntry("cleared textbox 'age'..");
             tbxAge.Text = "";
+        }
+
+        private void Age_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {   
+            Logs.getInstance().addEntry("frame 'age' closed..");
+            Dispose();
         }
     }
 }
