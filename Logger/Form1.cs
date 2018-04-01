@@ -102,7 +102,7 @@ namespace Logger
 
         private void llToFrmAge_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Age frmAge = new Age();
+            Age frmAge = new Age(this);
             frmAge.Show();
         }
     }

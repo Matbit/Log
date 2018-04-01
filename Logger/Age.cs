@@ -12,9 +12,10 @@ namespace Logger
 {
     public partial class Age : Form
     {
-        public Age()
-        {
+        public Age(frmMain main)
+        {   
             InitializeComponent();
+            this.BackColor = main.BackColor;
             Logs.getInstance().addEntry("opened frame 'age'..");
         }
 
@@ -43,7 +44,6 @@ namespace Logger
                 }
 
                 DateTime aDate = DateTime.Now;
-                //Logs.getInstance().addEntry("typed age..");
                 MessageBox.Show("You could have been borned in " + (aDate.Year - age) + ".","Information",MessageBoxButtons.OK);
                 
 
